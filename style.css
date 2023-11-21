@@ -1,0 +1,126 @@
+body{
+    background-color: green !important;
+    height: 1000px;
+}
+#main{
+    
+    margin: 200px auto;
+}
+h1 { 
+color: orangered; 
+margin-bottom: -5px; 
+font-family: 'Poppins', sans-serif;
+} 
+p { 
+margin-bottom: -10px; 
+} 
+.ui { 
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+} 
+.row { 
+display: flex; 
+} 
+.cell { 
+border: none;
+width: 90px; 
+height: 90px; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+font-size: 30px; 
+text-align: center; 
+cursor: pointer; 
+}   
+.cell:active { 
+outline: none; 
+} 
+/* 3*3 Grid */
+#c1{ 
+border-bottom: 1px solid gray; 
+border-right: 1px solid gray; 
+} 
+
+#c2 { 
+border-bottom: 1px solid gray; 
+border-right: 1px solid gray; 
+border-left: 1px solid gray; 
+} 
+
+#c3 { 
+border-bottom: 1px solid gray; 
+border-left: 1px solid gray; 
+} 
+
+#c4 { 
+border-top: 1px solid gray; 
+border-bottom: 1px solid gray; 
+border-right: 1px solid gray; 
+} 
+  
+#c5 { 
+border: 1px solid gray; 
+} 
+
+#c6 { 
+border-top: 1px solid gray; 
+border-bottom: 1px solid gray; 
+border-left: 1px solid gray; 
+} 
+
+#c7 { 
+border-top: 1px solid gray; 
+border-right: 1px solid gray; 
+} 
+
+#c8 { 
+border-top: 1px solid gray; 
+border-right: 1px solid gray; 
+border-left: 1px solid gray; 
+} 
+
+#c9 { 
+border-top: 1px solid gray; 
+border-left: 1px solid gray; 
+} 
+/* Reset Button */
+#but { 
+background-color: black !important;
+box-sizing: border-box; 
+width: auto; 
+height: 40px; 
+/* border: 1px solid dodgerblue;  */
+border: none;
+outline: none;
+margin-left: auto; 
+border-radius: 8px; 
+color: white;
+/* font-family: Verdana, 
+    Geneva, Tahoma, sans-serif; 
+
+background-color: whitesmoke;  */
+/* color: dodgerblue;  */
+font-size: 20px; 
+cursor: pointer; 
+} 
+
+/* Player turn space */
+#print { 
+font-family: Verdana, 
+    Geneva, Tahoma, sans-serif; 
+ color: red;
+font-size: 30px; 
+} 
+
+/* Main Container */
+#main { 
+text-align: center; 
+} 
+
+/* Game Instruction Text */
+#ins { 
+font-family: Verdana,Geneva,  
+                Tahoma, sans-serif; 
+color: white; 
+}
